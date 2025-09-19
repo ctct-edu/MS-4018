@@ -1,95 +1,102 @@
-1. # 演習 ‒ Copilot in Teamsでコラボレーションを最初から最後まで管理する
+# 演習 ― Copilot in Teamsを使ってコラボレーションを管理する
 
-   > 所要時間：約 20 分  
-   > 注意：この演習を完了するには、Microsoft 365 Copilot のライセンスが必要です。また Microsoft Teams アクセス権も必要です。理想的には、記録された Teams 会議が最後の部分で使えるとより良いですが、記録なしでも演習の大部分は完了可能です。  
-   > :contentReference[oaicite:0]{index=0}
+>  所要時間：20 分
 
-   ---
+あなたは Contoso のマネージャーです。チームは、効果的なコミュニケーションを通じて協力し、目標を達成しています。Contoso Connect 製品のローンチに向けて、チームを新しいアイディアに賛同させ、製品ローンチの締め切り前にそのアイディアをどう取り入れるかをチームに伝えるメッセージを送る必要があります。Copilot を使って、メッセージを下書き→書き直し→調整し、明確で簡潔、かつプロフェッショナルなものに仕上げてください。 
 
-   ## 背景シナリオ
+チームチャットでアイデアをブレインストーミングする際には、議論したいキーポイントやアイデアを抽出し、それを Teams 会議で話し合うことができます。会議後には、各メンバーのアクションアイテムを明確にするために Copilot を活用します。
 
-   あなたは Contoso 社のマネージャーです。  
-   チームは効果的なコミュニケーションに依存しており、共同作業を通じて目標を達成します。  
-   現在、Contoso Connect 製品の発売に関する新しいアイデアをチームに共有し、製品発売の期限前にそのアイデアを実現に組み込もうとしています。  
-   そのため、Copilot を利用して以下を行う必要があります：  
+---
 
-   - チームへのメッセージの下書き、書き換え、調整を行い、メッセージが明確・簡潔・プロフェッショナルであることを確認する  
-   - チャットでアイデアをブレーンストーミングし、Teams 会議で議論すべき重要な情報やアイデアを抽出する  
-   - 会議後に、各チームメンバーに明確なアクション アイテムを割り当てる  
+## 1. アイデアを紹介する魅力的なメッセージを書く
 
-   :contentReference[oaicite:1]{index=1}
+1. チームのチャットで新しいチャネルを作成します。  
+   Chat のドロップダウンメニューから **New channel** を選択し、このチャネル名を **Contoso Connect** とします。
+2. チャットまたはチャネルのメッセージ入力ボックスに次のように入力します：  
+   > Hi Team! I’ve been thinking about Contoso Connect, and how we can make the product launch more exciting for our customers. I have a couple of ideas, and want to hear more from each of you. What do you think would make our customers excited and ready to work with Connect? :contentReference[oaicite:4]{index=4}  
+3. メッセージボックス下部にある **Rewrite with Copilot** アイコンを選択します。 :contentReference[oaicite:5]{index=5}  
+4. 文法やスタイルを改善する別バージョンのメッセージを生成するために **Rewrite** を選びます。最大で10回まで、異なるバージョンを生成できます。バージョン間の移動は、テキスト下の左右矢印で行います。 :contentReference[oaicite:6]{index=6}  
+5. このメッセージは十分ですが、あなたが伝えたい「熱意」がやや不足しています。 :contentReference[oaicite:7]{index=7}  
+6. **Adjust** を選び、Copilot が提示するオプションからメッセージを修正・更新します。完全に満足できない場合はカスタムで調整。 :contentReference[oaicite:8]{index=8}  
+7. **Adjust** の中から **Custom** を選び、トーン（tone）を “instructive（指示的）” や “engaging（魅力的）” にするなど試してみます。 :contentReference[oaicite:9]{index=9}  
+8. 新しいメッセージが気に入ったら **Replace** を選択して置き換えます。部分的に選択したテキストを更新することも可能です。 :contentReference[oaicite:10]{index=10}  
+9. 提案を気に入らなければ、Copilot ウィンドウ右上の X をクリックして提案を拒否できます。オリジナルのメッセージを保持したい場合に。 :contentReference[oaicite:11]{index=11}  
+10. 置き換え後、**Send** を選択してメッセージを送ります。 :contentReference[oaicite:12]{index=12}
 
-   ---
+---
 
-   ## ステップ
+## 2. チームチャットを見直し、情報を収集する
 
-   ### 1. 魅力的なメッセージを書き、アイデアを紹介する
+全員が意見を出したら、チャットを見直して情報を集め、アイデアを議論するための会議をスケジュールします。Copilot を使ってチャットの内容を整理しましょう。 :contentReference[oaicite:13]{index=13}
 
-   1. Teams のチャットで新しいチャネルを作成する。  
-      - チャットのドロップダウン メニューから「新しいチャネル」を選び、「Contoso Connect」と命名。 :contentReference[oaicite:2]{index=2}  
-   2. チャネルのチャット メッセージ入力ボックスに以下のような内容を入力する：  
-      > “Hi Team! Contoso Connect について考え、お客様にとって製品の発売をよりエキサイティングなものにする方法について考えています。私はアイデアをいくつか持っており、あなた方一人一人からもっと聞きたいと思っています。” :contentReference[oaicite:3]{index=3}  
-   3. メッセージ入力ボックスの下部にある **[Copilot で書き換える]** アイコンを選択。 :contentReference[oaicite:4]{index=4}  
-   4. **[書き換え]** を選んで、文法やスタイルを改善した別バージョンのメッセージを生成。最大で 10 通りのバージョンを試せます。左右の矢印でバージョン間を移動。 :contentReference[oaicite:5]{index=5}  
-   5. 「まだ熱意が足りない」と感じたら、**[調整]** を選択し、Copilot が示すオプションから選ぶか、さらにカスタムで指示を加えて音調（トーン）を調整。指示的（instructional）や魅力的（engaging）なトーンを試すなど。 :contentReference[oaicite:6]{index=6}  
-   6. 新しいメッセージに問題がなければ **[置換]** を選んで差し替える。部分選択したテキストだけを更新することも可能。 :contentReference[oaicite:7]{index=7}  
-   7. Copilot ウィンドウの右上の “X” を選んで提案を却下することもできます。 :contentReference[oaicite:8]{index=8}  
-   8. メッセージを置き換えたら、**[送信]** をクリック。 :contentReference[oaicite:9]{index=9}  
+1. Teams の左側メニューから **Chat** を選び、「Product Launch」チャットを開きます。 :contentReference[oaicite:14]{index=14}  
+2. チャット画面右上の **Open Copilot** を選びます。 :contentReference[oaicite:15]{index=15}  
+3. チャットの作成ボックスの下で **More prompts** を選択し、以下のオプションから選びます：  
+   - 過去 1 日のハイライト  
+   - 過去 7 日のハイライト  
+   - 過去 30 日のハイライト  
+   - 決定されたこと  
+   - 保留中の事項 :contentReference[oaicite:16]{index=16}  
+4. 作成ボックスにプロンプトを入力し、 **Send** を選びます。例えば：  
+   - 「[チャットメンバー] はどのようなことを言っていたか？」  
+   - 「どんなリンクが共有されたか？」  
+   - 「製品ローンチを成功させるための追加の提案は？」  
+   - 「ローンチを阻む可能性のあるポイントは何か考慮すべきことは？」 :contentReference[oaicite:17]{index=17}
 
-   ---
+---
 
-   ### 2. チームチャットを確認し、情報を収集する
+## 3. Outlook で会議をスケジュールする
 
-   1. Teams の左側バーからチャット一覧に移動し、「製品の起動」チャット（“Product Launch”チャット等）を選択。 :contentReference[oaicite:10]{index=10}  
-   2. チャット画面右上にある **[Copilot を開く]** を選択。 :contentReference[oaicite:11]{index=11}  
-   3. Copilot の “作成” ボックスで **[その他のプロンプト]** を選び、次のようなオプションから選択または入力して試す：  
-      - 過去1日／7日／30日のハイライト  
-      - どのような決定が下されたか  
-      - オープン（未解決）の項目は何か  
-      - チャットメンバーが言ったことの要点  
-      - 共有されたリンク  
-      - 製品発売の成功に関する提案  
-      - 打ち上げを阻害する可能性のある問題点 等々 :contentReference[oaicite:12]{index=12}  
+チャットから洞察を取得したら、それらを話し合う会議をスケジュールします。Outlook 上で Copilot を使って参加者のスケジュールを参照し、会議招集メールを下書きします。 :contentReference[oaicite:18]{index=18}
 
-   ---
+1. Microsoft Outlook を開きます。 :contentReference[oaicite:19]{index=19}  
+2. **Home** リボンから Copilot アイコンを選んで、Copilot ペインを開きます。 :contentReference[oaicite:20]{index=20}  
+3. `Schedule a meeting next week based on attendees’ availability` のようなプロンプトを入力してミーティングの最適な時間を提案させます。Copilot は参加者の予定を調べ、候補時間を提示します。 :contentReference[oaicite:21]{index=21}  
+4. 提案された時間をレビューします。 :contentReference[oaicite:22]{index=22}  
+5. **Edit** を選んで会議の招集メールに文脈（key points）を追加します。 :contentReference[oaicite:23]{index=23}  
+6. Copilot の **Draft with Copilot** オプションを選び、Teams チャットで収集された重要な内容を貼り付けます。 :contentReference[oaicite:24]{index=24}  
+7. キャンバス上の Copilot アイコンを選択します。 :contentReference[oaicite:25]{index=25}  
+8. 会議招集メールにアジェンダを追加し、プロフェッショナルなトーンに書き直すようプロンプトを使います。 :contentReference[oaicite:26]{index=26}  
+9. Copilot の提案をレビューして **Keep it** を選びます。 :contentReference[oaicite:27]{index=27}  
+10. 参加者にメールを **Send** します。 :contentReference[oaicite:28]{index=28}
 
-   ### 3. Outlook で会議をスケジュールする
+---
 
-   1. 情報を収集したら、会議を設定してブレーンストーミングをさらに進めます。 :contentReference[oaicite:13]{index=13}  
-   2. Microsoft Outlook を開く。 :contentReference[oaicite:14]{index=14}  
-   3. ホーム リボンから **Copilot** アイコンを開き、プロンプトで「出席者の空き時間に基づいて来週会議をスケジュールする」よう依頼。Copilot は関係者の予定表を見て適切時間を提案。 :contentReference[oaicite:15]{index=15}  
-   4. 提案された時間を確認する。必要なら編集を行う。 :contentReference[oaicite:16]{index=16}  
-   5. 会議出席依頼の本文に、チャットで収集した重要なポイントやコンテキストを含めるよう Copilot に指示する。 :contentReference[oaicite:17]{index=17}  
-   6. 議題を追加させたり、メールをプロフェッショナルなトーンに書き直させたりすることも可。Copilot の提案を確認して **[保持]** を選択。 :contentReference[oaicite:18]{index=18}  
-   7. 出席者に招待を送信する。 :contentReference[oaicite:19]{index=19}  
+## 4. 会議後のフォローアップのアクションアイテムを割り当てる
 
-   ---
+会議が終わったら、Copilot を使って会議を要約し、未回答の質問や、各メンバーが提案したアイデアなどを整理します。 :contentReference[oaicite:29]{index=29}
 
-   ### 4. 会議を基にフォローアップとアクションアイテムを割り当てる
+1. 会議を開き、**View recap** を選んでノート、要約、議事録（transcript）が生成されている画面を表示します。 :contentReference[oaicite:30]{index=30}  
+2. Copilot を開きます。 :contentReference[oaicite:31]{index=31}  
+3. プロンプトを入力して、「この会議で出たすべてのアイデアのリストを作成し、促進された案か却下された案かを示してください。」といった内容を依頼します。 :contentReference[oaicite:32]{index=32}  
+4. 以下のようなバリエーションでさらに洞察を取得できます：  
+   - 質問されたこと、回答されたこと、未回答のものは何か？  
+   - 会議の雰囲気はどうだったか？  
+   - 人々は何を言ったかを、技術的でない言葉で要約する。  
+   - なぜ [参加者名] はそのアイデアが良いと言ったのか？  
+   - 各参加者にとって最も大きな懸念は何だったか？最も期待していたのは何か？  
+   - [参加者名] が持っていたアイデアで、製品チームと共有できるものは？ :contentReference[oaicite:33]{index=33}  
+5. 会議参加者に対して、会議内容を要約し、アクションアイテムを含むメールを下書きします。 Copilot を使ってドラフトを作成可能です。 :contentReference[oaicite:34]{index=34}
 
-   1. 会議後、Teams でその会議に移動し、**再キャプチャの表示**を選んでメモ・概要・トランスクリプトを確認。 :contentReference[oaicite:20]{index=20}  
-   2. Copilot を開く。 :contentReference[oaicite:21]{index=21}  
-   3. 「この会議で生成されたすべてのアイデアの一覧を作成してください。アイデアが承認されたか拒否されたかを示してください」などとプロンプトを入力。 :contentReference[oaicite:22]{index=22}  
-   4. 以下のような追加のプロンプトを試して、さらに分析情報を得る：  
-      - どの質問が出され、回答され、未解決か？  
-      - 会議の雰囲気はどうだったか？  
-      - 技術的でない言葉で人々が言ったことを要約してください。  
-      - なぜある参加者はあるアイデアを良いと思ったのか？  
-      - 各参加者の懸念事項は何か？最も期待していたことは？  
-      - 製品チームと共有すべきアイデアは何か？  
-      - 会議内容を要約し、アクションアイテムを含むメールを作成して参加者に送る下書きを Copilot に頼む。 :contentReference[oaicite:23]{index=23}  
+---
 
-   ---
+## 総括
 
-   ## 総括（まとめ）
+Copilot を使えば、以下のようなプロセスがスムーズになります：  
+- メッセージを下書きし、書き直して調整する  
+- チームチャットから洞察を収集する  
+- ミーティングのスケジュールを効率よく立てる  
+- 会議後のアクションを整理し、フォローアップをする  
 
-   Copilot in Teams を活用することで：
+これらを活用することで、ワークフローを合理化し、コラボレーションの目的を容易に達成できるようになります。 :contentReference[oaicite:35]{index=35}
 
-   - メッセージのドラフト、書き換え、調整が簡単に行える  
-   - チャットから重要な情報・意思決定・未解決項目などを効率的に収集できる  
-   - Outlook 等を使って会議を適切にスケジュールし、参加者に情報を明確に伝える招待状を用意できる  
-   - 会議終了後にフォローアップを整理し、アクションアイテムをチームメンバーに明確に割り当てられる  
+---
 
-   これらのツールと手順を使いこなすことで、コラボレーションのワークフローを合理化し、チーム全体での共同作業をより生産的にすることが可能です。  
+***
+**フィードバック**  
+このページは役に立ちましたか？  
 
-   ---
+- はい  
+- いいえ  
+
+© Microsoft 2025  
