@@ -39,6 +39,7 @@ Copilot Chat には以下の方法でアクセスできます：
 ### 1. Copilot Chat の起動
 
 1. **Teams もしくは M365ユーザーポータル での Copilot Chat の開始**：
+
   Teamsの場合
    - Microsoft 365のアプリ一覧から「**Microsoft Teams**」 を開きます
    - 左側のナビゲーションペインで「**Copilot**」を選択します
